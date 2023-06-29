@@ -2,7 +2,7 @@ import React from 'react'
 
 const NavLeft = () => 
     <div className='navLeft'>
-        <img src='./logo.png' alt='img' height='40px'/>
+        <img src='./logo.png' alt='img' className='logoImage'/>
         <p className='logoName'>Datalogics</p>
     </div>
 

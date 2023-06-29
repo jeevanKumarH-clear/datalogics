@@ -5,6 +5,11 @@
   padding-left: 5px;
 }
 
+.logoImage {
+  max-width: 100%;
+  height: auto;
+}
+
 .navLeft {
   display: flex;
   align-items: center;
@@ -28,4 +33,67 @@
 
 .navCenter {
   padding-left: 5rem;
+}
+
+.navRight {
+  margin-left: 30%;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+  .navLeft {
+    padding-left: 2rem;
+  }
+  
+  .logoImage {
+    max-width: 50%;
+    height: auto;
+  }
+
+  .navCenter {
+    padding-left: 2rem;
+  }
+  
+  .navRight {
+    margin-left: 20%;
+  }
+
+  .ulist {
+    font-size: 0.8rem;
+    list-style-type: none;
+    display: flex;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .logoImage {
+    max-width: 30%;
+    height: auto;
+  }
+
+  .navLeft {
+    padding-left: 1rem;
+  }
+  
+  .navCenter {
+    padding-left: 1rem;
+  }
+  
+  .navRight {
+    margin-left: 7%;
+  }
+  
+  .logoName {
+    font-size: 1.5rem;
+  }
+  
+  .ulist {
+    font-size: 0.7rem;
+  }
+  
+  .list {
+    padding: 0.5rem;
+  }
 }
