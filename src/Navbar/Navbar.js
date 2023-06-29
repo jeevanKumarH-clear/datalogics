@@ -4,7 +4,7 @@ import NavCenter from './NavCenter'
 import NavRight from './NavRight'
 
 const Navbar = () => 
-    <div>
+    <div className='navBar'>
         <NavLeft/>
         <NavCenter/>
         <NavRight/>

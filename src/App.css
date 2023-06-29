@@ -1,6 +1,3 @@
-.App {
-}
-
 .logoName {
   font-style: italic;
   font-size: 2rem;
@@ -11,6 +8,24 @@
 .navLeft {
   display: flex;
   align-items: center;
-  border: 1px solid red;
+  padding-left: 5rem;
+}
+
+.ulist {
+  font-size: 0.8rem;
+  list-style-type: none;
+  display: flex;
+}
+
+.list {
+  padding: 1rem;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+}
+
+.navCenter {
   padding-left: 5rem;
 }
