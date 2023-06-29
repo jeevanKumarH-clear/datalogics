@@ -1,8 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;800&family=Outfit:wght@100;600&display=swap');
+
+.App {
+  background-color: rgb(49, 132, 56);
+  height: 100vh;
+  width: 100vw;
+}
+
+/* .bigCircle {
+  height: 10%;
+  width: 100%;
+  border-radius: 50%;
+  border: 1px solid white;
+  padding-top: 10rem;
+  background-color: white;
+  overflow: hidden;
+  clip-path: ellipse(50% 15% at 51% 51%);
+}  */
+
 .logoName {
   font-style: italic;
   font-size: 2rem;
   font-weight: 600;
   padding-left: 5px;
+  color: white;
 }
 
 .logoImage {
@@ -24,6 +44,7 @@
 
 .list {
   padding: 1rem;
+  color: white;
 }
 
 .navBar {
@@ -37,6 +58,24 @@
 
 .navRight {
   margin-left: 30%;
+}
+
+.lcm {
+  font-family: Montserrat;
+  word-spacing: 0.5rem;
+  letter-spacing: 0.2rem;
+}
+
+.intro {
+  border: 1px solid red;
+  padding-left: 5.5rem;
+  color: white;
+}
+
+.info {
+  font-family: Montserrat;
+  font-size: 0.9rem;
+  line-height: 1.9;
 }
 
 /* Responsive Styles */

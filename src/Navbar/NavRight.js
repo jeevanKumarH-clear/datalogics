@@ -8,7 +8,7 @@ const NavRight = () =>
             sx={
                 { 
                     color:"red", 
-                    backgroundColor:"black", 
+                    backgroundColor:"white", 
                     borderRadius:"50%", 
                     width:"40px", 
                     height:"40px", 
