@@ -202,6 +202,25 @@
   font-family: Outfit;
 }
 
+.serviceCenterDetail {
+  text-align: left;
+}
+
+.getDirection {
+  color: red;
+  display: flex;
+  align-items: center;
+}
+
+.getDirection:hover {
+  cursor: pointer;
+}
+
+.directionImg {
+  margin-left: 0.5rem;
+}
+
+
 
 /* Responsive Styles */
 
