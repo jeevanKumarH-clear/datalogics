@@ -1,5 +1,6 @@
 import './App.css';
 import AppleService from './AppleService/AppleService';
+import Contact from './Contact/Contact';
 import Intro from './Intro/Intro';
 import Navbar from './Navbar/Navbar';
 import Partners from './Partners/Partners';
@@ -14,6 +15,7 @@ const App = () =>
       <AppleService/>
       <Partners/>
       <ServiceCenters/>
+      <Contact/>
     </div>
 
 export default App;
