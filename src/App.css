@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;800&family=Outfit:wght@100;300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;800&family=Outfit:wght@100;300;400;500;600&display=swap');
 
 .App {
   background-color: rgb(49, 132, 56);
@@ -95,6 +95,10 @@
   font-size: 25px;
 }
 
+.headings {
+  font-size: 20px;
+}
+
 .detail {
   padding-top: 3rem;
   font-size: 18px;
@@ -122,10 +126,6 @@
 .chart {
   max-width: 100%;
   height: auto;
-}
-
-.serviceContainer {
-  border: 1px solid red;
 }
 
 .services {
@@ -166,6 +166,36 @@
   font-family: Outfit;
 }
 
+.partnersHeading {
+  font-family: Outfit;
+  font-size: large;
+}
+
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem;
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.partnersLogo{
+  max-width: 100%;
+  height: auto;
+}
+
+.dCare {
+  font-size: 35px;
+  font-style: italic;
+  font-family: Outfit;
+}
+
+
 /* Responsive Styles */
 
 @media (max-width: 768px) {
@@ -190,6 +220,10 @@
     font-size: 0.8rem;
     list-style-type: none;
     display: flex;
+  }
+
+  .imageContainer {
+    flex-direction: column;
   }
 }
 

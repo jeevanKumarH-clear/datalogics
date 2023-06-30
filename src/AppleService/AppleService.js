@@ -10,7 +10,7 @@ const AppleService = () =>
                 <div>
                     <img className='Icon' width="50" height="50" src="https://img.icons8.com/ios/50/000000/crown.png" alt="crown"/>
                 </div>
-                <div className='heading'>
+                <div className='headings'>
                     <p>Unmatched Expertise, Tailored Solutions</p>
                 </div>
                 <div className='serviceDetail'>
@@ -21,7 +21,7 @@ const AppleService = () =>
                 <div>
                 <img width="50" height="50" src="https://img.icons8.com/ios/50/000000/security-checked--v1.png" alt="security-checked--v1"/>
                 </div>
-                <div className='heading'>
+                <div className='headings'>
                     <p>Data Security: Our Foremost Priority</p>
                 </div>
                 <div className='serviceDetail'>
@@ -32,7 +32,7 @@ const AppleService = () =>
                 <div>
                 <img width="50" height="50" src="https://img.icons8.com/ios/50/000000/lightning-bolt--v1.png" alt="lightning-bolt--v1"/>
                 </div>
-                <div className='heading'>
+                <div className='headings'>
                     <p>Compliance Made Simple</p>
                 </div>
                 <div className='serviceDetail'>
@@ -43,7 +43,7 @@ const AppleService = () =>
                 <div>
                 <img width="48" height="48" src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/000000/external-grow-up-business-and-finance-tanah-basah-glyph-tanah-basah.png" alt="external-grow-up-business-and-finance-tanah-basah-glyph-tanah-basah"/>
                 </div>
-                <div className='heading'>
+                <div className='headings'>
                     <p>Maximize Efficiency, Minimize Downtime</p>
                 </div>
                 <div className='serviceDetail'>
@@ -53,7 +53,7 @@ const AppleService = () =>
                 <div>
                 <img width="64" height="64" src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-tree-camping-kiranshastry-lineal-kiranshastry-1.png" alt="external-tree-camping-kiranshastry-lineal-kiranshastry-1"/>
                 </div>
-                <div className='heading'>
+                <div className='headings'>
                     <p>Sustainability At The Core</p>
                 </div>
                 <div className='serviceDetail'>
@@ -63,7 +63,7 @@ const AppleService = () =>
                 <div>
                 <img width="80" height="80" src="https://img.icons8.com/dotty/80/imac.png" alt="imac"/>
                 </div>
-                <div className='heading'>
+                <div className='headings'>
                     <p>Experience The Power Of Seamless<br/>Device Management</p>
                 </div>
                 <div className='serviceDetail'>
