@@ -71,10 +71,11 @@
   color: white;
 }
 
-.info {
+.lcmInfo {
   font-family: Montserrat;
   font-size: 0.9rem;
   line-height: 1.9;
+  text-align: left;
 }
 
 .simpContainer {
