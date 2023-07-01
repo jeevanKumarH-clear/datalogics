@@ -1,8 +1,4 @@
-import { AccountCircleOutlined } from '@mui/icons-material'
-import EmailIcon from '@mui/icons-material/Email';
-import CallIcon from '@mui/icons-material/Call';
-import LocationOnIcon from '@mui/icons-material/LocationOn';
-import DevicesIcon from '@mui/icons-material/Devices';
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { Button, InputAdornment, TextField } from '@mui/material'
 import React from 'react'
 
@@ -29,7 +25,7 @@ const Contact = () =>
                     InputProps={{
                         startAdornment: (
                         <InputAdornment position="start">
-                            <AccountCircleOutlined/>
+                            <a><i class="uil uil-user"></i></a>
                         </InputAdornment>
                         ),
                         }}/>
@@ -39,7 +35,7 @@ const Contact = () =>
                     InputProps={{
                         startAdornment: (
                         <InputAdornment position="start">
-                            <EmailIcon/>
+                            <a><i class="uil uil-envelope"></i></a>
                         </InputAdornment>
                         ),
                         }} />
@@ -49,7 +45,7 @@ const Contact = () =>
                     InputProps={{
                         startAdornment: (
                         <InputAdornment position="start">
-                            <CallIcon/>
+                            <a><i class="uil uil-phone"></i></a>
                         </InputAdornment>
                         ),
                     }}/>
@@ -60,7 +56,7 @@ const Contact = () =>
                     InputProps={{
                         startAdornment: (
                         <InputAdornment position="start">
-                            <LocationOnIcon/>
+                            <a><i class="uil uil-desktop-alt"></i></a>
                         </InputAdornment>
                         ),
                     }}/>
@@ -71,7 +67,7 @@ const Contact = () =>
                     InputProps={{
                         startAdornment: (
                         <InputAdornment position="start">
-                            <DevicesIcon/>
+                            <a><i class="uil uil-map-marker"></i></a>
                         </InputAdornment>
                         ),
                     }}/>
