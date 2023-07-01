@@ -16,11 +16,13 @@ const Partners = () =>
                 src='https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTpZ2vyA35D4bmequ5Ez_hstVZUu_Hf-Ou24akDiSCjHmgNkPR-' 
                 alt='img'
             />
+            <div style={{display:'flex',alignItems:'center'}}>
             <img 
                 className='partnersLogo'
                 src='./logo.png' 
                 alt='img'
             /><span className='dCare'><b>Care</b></span>
+            </div>
         </div>
     </div>
 
