@@ -90,6 +90,14 @@
   text-align: left;
 }
 
+.handImg {
+  border-radius: 50px;
+}
+
+.handBtn {
+  margin-left: 90%;
+}
+
 .simpContainer {
   margin-top: 7rem;
   display: flex;
@@ -486,6 +494,10 @@
 
   .contact {
     padding: 3rem;
+  }
+
+  .handBtn {
+    display: none;
   }
 
   .details {
