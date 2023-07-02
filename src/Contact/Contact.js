@@ -20,7 +20,8 @@ const Contact = () =>
             </div>
             <div className='inputs'>
                 <TextField 
-                    placeholder="Name"  
+                    placeholder="Name"
+                    type='text'
                     sx={{ width: '91%',padding:'5px'}} 
                     InputProps={{
                         startAdornment: (
@@ -31,6 +32,7 @@ const Contact = () =>
                         }}/>
                 <TextField 
                     placeholder="Email address"
+                    type='email'
                     sx={{ width: '45%',padding:'5px'}}
                     InputProps={{
                         startAdornment: (
@@ -41,6 +43,7 @@ const Contact = () =>
                         }} />
                 <TextField
                     placeholder="Mobile Number"
+                    type='number'
                     sx={{ width: '45%',padding:'5px'}}
                     InputProps={{
                         startAdornment: (
@@ -61,7 +64,8 @@ const Contact = () =>
                         ),
                     }}/>
                 <TextField 
-                    placeholder="City" 
+                    placeholder="City"
+                    type='text' 
                     sx={{ width: '91%',padding:'5px'}}
                     fullWidth
                     InputProps={{

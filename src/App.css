@@ -401,6 +401,7 @@
 .socials a:hover {
   background: #D80228;
   color: var(--color-white);
+  cursor: pointer;
 }
 
 .footerBase {
@@ -408,6 +409,11 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.copyright {
+  font-family: Outfit;
+}
+
 
 /* Responsive Styles */
 @media only screen and (max-width: 450px) {
