@@ -432,6 +432,8 @@
   }
 }
 
+
+
 @media only screen and (max-width: 768px) {
 
   .App {
@@ -531,6 +533,130 @@
 
   .socials {
     justify-content: center;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 385px) {
+
+  .App {
+    background-color: rgb(49, 132, 56);
+    min-width: 680px;
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 390px) and (max-width: 450px) {
+  .App {
+    background-color: rgb(49, 132, 56);
+    min-width: 680px;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 540px) {
+  .App {
+    background-color: rgb(49, 132, 56);
+    min-width: 680px;
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footerBase {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 1000px) {
+
+  .App {
+    background-color: rgb(49, 132, 56);
+    min-width: 680px;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .details {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .contactImg {
+    border-radius: 25px;
+    width: 90%;
+  }
+}
+
+@media (min-width: 850px) and (max-width: 920px) {
+
+  .App {
+    background-color: rgb(49, 132, 56);
+    min-width: 680px;
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .details {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .contactImg {
+    border-radius: 25px;
+    width: 90%;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .contactImg {
+    border-radius: 25px;
+    width: 90%;
+    height: 90%;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1350px) {
+
+  .App {
+    background-color: rgb(49, 132, 56);
+    min-width: 680px;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
 }
 
