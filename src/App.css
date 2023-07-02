@@ -137,9 +137,11 @@
   content: '';
   position: absolute;
   width: 100%;
-  border-top: solid 3px #318438;
+  border-top: solid 3px  rgb(49, 132, 56);
   left: 0;
-  bottom: -15px;
+  bottom: -22px;
+  border-radius: 50%;
+  height: 20px;
 }
 
 .chart {
